@@ -113,7 +113,8 @@
     <div class="content">
       <h2>Contact Me</h2>
       <p>I’m always open to discussing new projects or ideas. Let’s connect!</p>
-      <form id="contact-form">
+      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="6af50442-d512-447e-b477-ab931430ae3c">
         <input type="text" id="name" name="name" placeholder="Your Name" required>
         <input type="email" id="email" name="email" placeholder="Your Email" required>
         <textarea id="message" name="message" placeholder="Your Message" required></textarea>
